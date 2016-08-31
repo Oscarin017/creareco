@@ -1,55 +1,41 @@
 
 /*--------------------------------------------------------------
-13 Custom CSS for demo site
+Custom CSS
 --------------------------------------------------------------*/
-#page {
-	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
+*{
+	margin: 0;
+	padding: 0;
 }
-#primary {
-	float: left;
-	width: 100%;
-}
-h1 {
-	font-size: 1.8em;
-	margin: 10px 0
-}
-/*nav {
-	margin: 20px 0;
-	background: #222;	
-	position: fixed;
-	top: 0
-}
-nav a {
-	padding: 10px;
-	display: block;
-	float: left;
-	color: #fff;
-	outline: 0
-}
-nav a:hover,nav a:visited  {
-	color: #fff;	
-}*/
-
-header{
-	display: block;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-
-nav a{
-	float: left;
-	width: 14.28%;
-	text-align: center;
-}
-article {
-	padding-top: 50px;
-	outline: 0
+a{
+	text-decoration: none;
 }
 .img-center{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+#page {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fffffb;
+}
+#masthead{
+	position: fixed;
+	max-width: 1200px;
+	width: 100%;
+	background-color: #fffffb;
+
+}
+.menu{
+	list-style-type: none;
+}
+.menu .menu-item{
+	float: left;
+	width: 14.28%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#content{
 }
