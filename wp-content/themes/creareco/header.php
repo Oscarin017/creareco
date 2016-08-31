@@ -25,7 +25,6 @@
 	<header id="masthead" class="site-header" role="banner">
 		<img src="http://localhost/creareco/wp-content/uploads/2016/08/Logo.png" class="img-center">
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'creareco' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
